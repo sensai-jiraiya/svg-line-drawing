@@ -75,7 +75,7 @@ h1 {
 
 }
 
-#narwhale-eye {
+#narwhal-eye {
   opacity: 0;
   animation: appear 1s linear forwards;
 }
