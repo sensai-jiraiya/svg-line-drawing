@@ -9,3 +9,73 @@ h1 {
   left: 80px;
   animation: appear 1s linear forwards;
 }
+
+@keyframes appear {
+
+  to {
+    opacity: 1;
+  }
+
+}
+
+#rainbow-violet {
+  stroke-dasharray: 1813px;
+  stroke-dashoffset: 1813px;
+  animation: rainbow-offset 1s linear forwards;
+}
+#rainbow-indigo {
+  stroke-dasharray: 1813px;
+  stroke-dashoffset: 1813px;
+  animation: rainbow-offset 1s linear forwards;
+}
+
+#rainbow-blue {
+  stroke-dasharray: 1705px;
+  stroke-dashoffset: 1705px;
+  animation: rainbow-offset 1s linear forwards;
+}
+
+#rainbow-green {
+  stroke-dasharray: 1596px;
+  stroke-dashoffset: 1596px;
+  animation: rainbow-offset 1s linear forwards;
+}
+
+#rainbow-yellow {
+  stroke-dasharray: 1483px;
+  stroke-dashoffset: 1483px;
+  animation: rainbow-offset 1s linear forwards;
+}
+
+#rainbow-orange {
+  stroke-dasharray: 1366px;
+  stroke-dashoffset: 1366px;
+  animation: rainbow-offset 1s linear forwards;
+}
+
+@keyframes rainbow-offset {
+
+  to {
+    stroke-dashoffset:0;
+  }
+
+}
+
+#narwhal-body {
+  stroke-dasharray: 1981px;
+  stroke-dashoffset: 1981px;
+  animation: narwhale-animation 1s linear forwards;
+}
+
+@keyframes narwhale-animation {
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#narwhale-eye {
+  opacity: 0;
+  animation: appear 1s linear forwards;
+}
