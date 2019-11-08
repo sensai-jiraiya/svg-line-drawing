@@ -53,6 +53,12 @@ h1 {
   animation: rainbow-offset 1s linear forwards;
 }
 
+#rainbow-red {
+  stroke-dasharray: 1243px;
+  stroke-dashoffset: 1243px;
+  animation: rainbow-offset 1s linear forwards;
+}
+
 @keyframes rainbow-offset {
 
   to {
